@@ -7,13 +7,10 @@ tags: [日常]
 category: 日常
 licenseName: "CC BY 4.0"
 author: 小叶
-
-draft: false
 date: 2025-11-29
 image:
   url: './yjy.jpg'
   alt: '小叶的头像'
-pubDate: 2025-11-29
 ---
 
 ## 小叶的博客开张啦
