@@ -17,7 +17,7 @@ import { getTranslateLanguageFromConfig, detectBrowserLanguage } from "./utils/l
  */
 
 // 自动检测浏览器语言
-const SITE_LANG = detectBrowserLanguage("en"); // 服务端渲染时默认为 'en'
+const SITE_LANG = detectBrowserLanguage("zh"); // 服务端渲染时默认为 'zh'
 // 如果需要强制使用特定语言，可以取消注释下面一行并设置语言代码
 //const SITE_LANG = "zh"; // 强制使用的语言代码，'zh', 'en', 'ja' 等
 
@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
     // 站点标题
     title: "落叶堆",
     // 站点副标题
-    subtitle: "~~好困好想睡觉~~",
+    subtitle: "(喵~)",
     // 语言配置
     lang: SITE_LANG, // 自动检测的浏览器语言
     // 翻译配置
@@ -64,6 +64,15 @@ export const siteConfig: SiteConfig = {
         // Hanalei 字体 (适合中文)
         hanalei: {
             // 作为全局字体
+            enable: false,
+        },
+         // 添加 Consolas 字体 (适合代码编辑)
+        consolas: {
+            enable: true,
+        },
+    
+        // 添加 Microsoft YaHei Mono 字体 (适合中文显示)
+        microsoftYaHeiMono: {
             enable: true,
         },
     },
