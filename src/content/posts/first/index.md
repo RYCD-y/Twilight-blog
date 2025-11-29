@@ -1,13 +1,15 @@
 ---
 title: 小叶的博客开张啦
-date: 2025-11-29
+published: 2025-11-29
 description: "第一篇博客，好诶😁"
 tags: [日常]
 category: "日常"
 licenseName: "CC BY 4.0"
 author: "小叶"
 image: "./yjy.jpg"
+draft: false
 ---
+
 
 ## 小叶的博客开张啦
 
