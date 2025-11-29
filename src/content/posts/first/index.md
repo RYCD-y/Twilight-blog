@@ -6,7 +6,7 @@ tags: [日常]
 category: "日常"
 licenseName: "CC BY 4.0"
 author: "小叶"
-image:"./yjy.jpg"
+image: "./yjy.jpg"
 ---
 
 ## 小叶的博客开张啦
