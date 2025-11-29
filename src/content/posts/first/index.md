@@ -11,7 +11,7 @@ author: 小叶
 draft: false
 date: 2025-11-29
 image:
-  url: 'yjy.jpg'
+  url: './yjy.jpg'
   alt: '小叶的头像'
 pubDate: 2025-11-29
 ---
