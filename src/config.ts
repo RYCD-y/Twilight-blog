@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
     // 站点标题
     title: "落叶堆",
     // 站点副标题
-    subtitle: "(喵~)",
+    subtitle: "欢迎来玩ヾ(≧▽≦*)o",
     // 语言配置
     lang: SITE_LANG, // 自动检测的浏览器语言
     // 翻译配置
@@ -59,21 +59,21 @@ export const siteConfig: SiteConfig = {
         // zenMaruGothic 字体 (适合日语和英语，对中文适配一般)
         zenMaruGothic: {
             // 作为全局字体
-            enable: false,
+            enable: true,
         },
         // Hanalei 字体 (适合中文)
         hanalei: {
             // 作为全局字体
-            enable: false,
+            enable: true,
         },
          // 添加 Consolas 字体 (适合代码编辑)
         consolas: {
-            enable: true,
+            enable: false,
         },
     
         // 添加 Microsoft YaHei Mono 字体 (适合中文显示)
         microsoftYaHeiMono: {
-            enable: true,
+            enable: false,
         },
     },
     // 主题色配置
