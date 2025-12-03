@@ -64,7 +64,7 @@ export const siteConfig: SiteConfig = {
         // Hanalei 字体 (适合中文)
         hanalei: {
             // 作为全局字体
-            enable: true,
+            enable: false,
         },
          // 添加 Consolas 字体 (适合代码编辑)
         consolas: {
@@ -73,7 +73,7 @@ export const siteConfig: SiteConfig = {
     
         // 添加 Microsoft YaHei Mono 字体 (适合中文显示)
         microsoftYaHeiMono: {
-            enable: false,
+            enable: true,
         },
     },
     // 主题色配置
@@ -123,7 +123,7 @@ export const siteConfig: SiteConfig = {
                 // 在主页显示文本
                 enable: true,
                 // 主标题
-                title: "面对大河我无限惭愧\n我年华虚度，空有一身疲倦",
+                title: "面对大河我无限惭愧       我年华虚度，空有一身疲倦",
                 // 副标题，支持单个字符串或字符串数组
                 subtitle: [
                     "——海子",
@@ -205,7 +205,7 @@ export const navBarConfig: NavBarConfig = {
             children: [
                 {
                     name: "GitHub",
-                    url: "https://github.com/Example",
+                    url: "https://github.com/RYCD-y",
                     external: true,
                     icon: "fa6-brands:github",
                 },
@@ -388,16 +388,23 @@ export const profileConfig: ProfileConfig = {
     // 头像配置 (相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录)
     avatar: "assets/images/avatar.png",
     // 信息配置
-    name: "Twilight",
+    name: "RYCD",
     // 简介配置
-    bio: "Hi",
+    bio: "我想睡觉",
     // 链接配置
     links: [
         {
             name: "GitHub",
             icon: "fa6-brands:github",
-            url: "https://github.com/Spr-Aachen/Twilight",
+            url: "https://github.com/RYCD-y",
         },
+        {
+            name: "QQ",
+            icon: "mingcute:qq-fill",
+            url: "https://qm.qq.com/cgi-bin/qm/qr?k=mbXu2glp6l70ysTRni0GScwL7Qqg_YlF",
+        },
+
+
     ],
 };
 
@@ -405,15 +412,15 @@ export const profileConfig: ProfileConfig = {
 // 公告配置
 export const announcementConfig: AnnouncementConfig = {
     // 公告标题
-    title: "Announcement",
+    title: "公告",
     // 公告内容
-    content: "Welcome to my blog!",
+    content: "本站打算做成个人知识库（和塞碎碎念的地方），大量搬运了其他文章，若有问题请QQ联系",
     // 允许用户关闭公告
     closable: true,
     // 链接配置
     link: {
         // 启用链接
-        enable: true,
+        enable: false,
         // 链接文本
         text: "Learn More",
         // 链接 URL
@@ -457,13 +464,13 @@ export const postConfig: PostConfig = {
     // 评论配置
     comment: {
         // 启用评论功能
-        enable: false,
+        enable: true,
         // Twikoo 评论系统配置
         twikoo: {
             // 环境 ID
             envId: "https://twikoo.vercel.app",
             // 语言
-            lang: "en",
+            lang: "zh",
         },
     },
 };
