@@ -18,6 +18,7 @@
 .banner-subtitle {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
     animation: fadeInUp 1s ease-out 0.3s both;
+    text-align: left !important;
 }
 
 /* 淡入上移动画 */
