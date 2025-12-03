@@ -59,7 +59,7 @@ export const siteConfig: SiteConfig = {
         // zenMaruGothic 字体 (适合日语和英语，对中文适配一般)
         zenMaruGothic: {
             // 作为全局字体
-            enable: true,
+            enable: false,
         },
         // Hanalei 字体 (适合中文)
         hanalei: {
@@ -84,7 +84,7 @@ export const siteConfig: SiteConfig = {
         fixed: false,
     },
     // 默认主题 ("system" 跟随系统 | "light" 浅色 | "dark" 深色)
-    defaultTheme: "dark",
+    defaultTheme: "system",
     // 壁纸配置
     wallpaper: {
         // 模式 ("banner" 横幅 | "fullscreen" 全屏 | "none" 纯色)
@@ -123,15 +123,16 @@ export const siteConfig: SiteConfig = {
                 // 在主页显示文本
                 enable: true,
                 // 主标题
-                title: "Twilight",
+                title: "面对大河我无限惭愧
+我年华虚度，空有一身疲倦",
                 // 副标题，支持单个字符串或字符串数组
                 subtitle: [
-                    "Illuminate Our Paths",
+                    "              ——海子",
                 ],
                 // 副标题打字机效果
                 typewriter: {
                     // 启用副标题打字机效果
-                    enable: true,
+                    enable: false,
                     // 打字速度 (毫秒)
                     speed: 111,
                     // 删除速度 (毫秒)
