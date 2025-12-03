@@ -123,7 +123,10 @@ export const siteConfig: SiteConfig = {
                 // 在主页显示文本
                 enable: true,
                 // 主标题
-                title: "面对大河我无限惭愧<br/>我年华虚度，空有一身疲倦",
+                title: [
+                    "面对大河我无限惭愧",
+                    "我年华虚度，空有一身疲倦",
+                    ],
                 // 副标题，支持单个字符串或字符串数组
                 subtitle: [
                     "——海子",
