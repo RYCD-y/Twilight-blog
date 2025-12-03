@@ -126,7 +126,7 @@ export const siteConfig: SiteConfig = {
                 title: "面对大河我无限惭愧\n我年华虚度，空有一身疲倦",
                 // 副标题，支持单个字符串或字符串数组
                 subtitle: [
-                    "              ——海子",
+                    "<span style='display:block; margin-left: 120px;'>——海子</span>",
                 ],
                 // 副标题打字机效果
                 typewriter: {
