@@ -400,7 +400,7 @@ export const profileConfig: ProfileConfig = {
         },
         {
             name: "QQ",
-            icon: "mingcute:qq-fill",
+            icon: "fa6-brands:qq",
             url: "https://qm.qq.com/cgi-bin/qm/qr?k=mbXu2glp6l70ysTRni0GScwL7Qqg_YlF",
         },
 
