@@ -1,4 +1,3 @@
-
 ---
 title: "高数笔记文字版（说明）"
 published: 2025-12-03
@@ -10,6 +9,7 @@ author: "Jason Ren"
 sourceLink: "https://gitee.com/jason_ren/advanced-math-note"
 draft: false
 ---
+
 # 高数笔记文字版
 > 绝赞更新中，后续内容敬请期待
 * 高数全部笔记根据《高等数学（第2版）》[ISBN 978-7-5635-5265-8（上）/ ISBN 978-7-5635-5361-7（下），北京邮电大学数学系 编著]整理
